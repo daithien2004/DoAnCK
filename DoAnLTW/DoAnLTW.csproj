@@ -260,5 +260,20 @@
   <ItemGroup>
     <None Include="Resources\icons8-password-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2124299_app_document_report_essential_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1564508_home_main_room_estate_property_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4737437_manage_dashboard_analytic_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211694_bell_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\370076_account_avatar_client_male_person_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

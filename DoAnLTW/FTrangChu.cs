@@ -16,5 +16,9 @@ namespace DoAnLTW
         {
             InitializeComponent();
         }
+        private void FTrangChu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
