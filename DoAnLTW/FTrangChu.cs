@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAnLTW
 {
-    public partial class tesst : Form
+    public partial class FTrangChu : Form
     {
-        public tesst()
+        public FTrangChu()
         {
             InitializeComponent();
         }
