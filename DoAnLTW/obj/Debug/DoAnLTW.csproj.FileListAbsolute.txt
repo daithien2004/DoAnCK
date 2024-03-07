@@ -261,3 +261,9 @@ F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.csproj.CoreCompileInputs.cache
 F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.csproj.CopyComplete
 F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.exe
 F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.pdb
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCChonKS.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FKhachSan.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FDatPhongKS.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FThongTinKS.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCRating1.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCDatPhong.resources
