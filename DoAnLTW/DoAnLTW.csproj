@@ -139,11 +139,15 @@
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -153,8 +157,17 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAdmin.Designer.cs">
+      <DependentUpon>FAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FCreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,11 +212,29 @@
     <Compile Include="UCChonKS.Designer.cs">
       <DependentUpon>UCChonKS.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCDashboardAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDashboardAdmin.Designer.cs">
+      <DependentUpon>UCDashboardAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCDatPhong.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCDatPhong.Designer.cs">
       <DependentUpon>UCDatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCHotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHotel.Designer.cs">
+      <DependentUpon>UCHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCHotelAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHotelAdmin.Designer.cs">
+      <DependentUpon>UCHotelAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="UCRating1.cs">
       <SubType>UserControl</SubType>
@@ -211,6 +242,21 @@
     <Compile Include="UCRating1.Designer.cs">
       <DependentUpon>UCRating1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUser.Designer.cs">
+      <DependentUpon>UCUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUserAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserAdmin.Designer.cs">
+      <DependentUpon>UCUserAdmin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FAdmin.resx">
+      <DependentUpon>FAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FCreateAccount.resx">
       <DependentUpon>FCreateAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -243,11 +289,26 @@
     <EmbeddedResource Include="UCChonKS.resx">
       <DependentUpon>UCChonKS.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCDashboardAdmin.resx">
+      <DependentUpon>UCDashboardAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCDatPhong.resx">
       <DependentUpon>UCDatPhong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCHotel.resx">
+      <DependentUpon>UCHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCHotelAdmin.resx">
+      <DependentUpon>UCHotelAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCRating1.resx">
       <DependentUpon>UCRating1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUser.resx">
+      <DependentUpon>UCUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserAdmin.resx">
+      <DependentUpon>UCUserAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
