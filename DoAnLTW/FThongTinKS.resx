@@ -120,12 +120,6 @@
   <metadata name="gunaElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>519, 18</value>
   </metadata>
-  <data name="gunaLabel5.Text" xml:space="preserve">
-    <value>Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. 
-Nằm ở vị trí chiến lược tại Phường 2, cho phép quý khách lui tới và gần với 
-các điểm thu hút và tham quan địa phương.
-</value>
-  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>655, 18</value>
   </metadata>
@@ -137,7 +131,7 @@ các điểm thu hút và tham quan địa phương.
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA4
-        yR8AAk1TRnQBSQFMAgEBBAEAARgBAQEYAQEBAAEBAQABAQT/ASEBAAj/AUIBTQE2BwABNgMAASgEAAEE
+        yR8AAk1TRnQBSQFMAgEBBAEAATABAQEwAQEBAAEBAQABAQT/ASEBAAj/AUIBTQE2BwABNgMAASgEAAEE
         AwABAgIAAQEBAAEgBwABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
@@ -34856,6 +34850,12 @@ các điểm thu hút và tham quan địa phương.
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAEAAs=
+</value>
+  </data>
+  <data name="gunaLabel5.Text" xml:space="preserve">
+    <value>Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. 
+Nằm ở vị trí chiến lược tại Phường 2, cho phép quý khách lui tới và gần với 
+các điểm thu hút và tham quan địa phương.
 </value>
   </data>
   <metadata name="gunaElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

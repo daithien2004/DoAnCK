@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAnLTW
 {
-    public partial class UCRating1 : UserControl
+    public partial class UCKhachSan : UserControl
     {
-        public UCRating1()
+        public UCKhachSan()
         {
             InitializeComponent();
         }

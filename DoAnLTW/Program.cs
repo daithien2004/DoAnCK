@@ -16,7 +16,7 @@ namespace DoAnLTW
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FTrangChu());
+            Application.Run(new FDangNhap());
         }
     }
 }

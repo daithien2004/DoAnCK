@@ -34,9 +34,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.ucRating13 = new DoAnLTW.UCRating1();
-            this.ucRating12 = new DoAnLTW.UCRating1();
-            this.ucRating11 = new DoAnLTW.UCRating1();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
@@ -48,6 +45,9 @@
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ucDanhGia1 = new DoAnLTW.UCDanhGia();
+            this.ucDanhGia2 = new DoAnLTW.UCDanhGia();
+            this.ucDanhGia3 = new DoAnLTW.UCDanhGia();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
@@ -79,50 +79,30 @@
             // 
             this.guna2CustomGradientPanel1.AutoScroll = true;
             this.guna2CustomGradientPanel1.BorderRadius = 20;
-            this.guna2CustomGradientPanel1.Controls.Add(this.ucRating13);
-            this.guna2CustomGradientPanel1.Controls.Add(this.ucRating12);
-            this.guna2CustomGradientPanel1.Controls.Add(this.ucRating11);
+            this.guna2CustomGradientPanel1.Controls.Add(this.ucDanhGia3);
+            this.guna2CustomGradientPanel1.Controls.Add(this.ucDanhGia2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.ucDanhGia1);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(566, 156);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(857, 112);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(323, 411);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(333, 498);
             this.guna2CustomGradientPanel1.TabIndex = 24;
-            // 
-            // ucRating13
-            // 
-            this.ucRating13.BackColor = System.Drawing.Color.Transparent;
-            this.ucRating13.Location = new System.Drawing.Point(18, 242);
-            this.ucRating13.Name = "ucRating13";
-            this.ucRating13.Size = new System.Drawing.Size(284, 106);
-            this.ucRating13.TabIndex = 2;
-            // 
-            // ucRating12
-            // 
-            this.ucRating12.BackColor = System.Drawing.Color.Transparent;
-            this.ucRating12.Location = new System.Drawing.Point(18, 130);
-            this.ucRating12.Name = "ucRating12";
-            this.ucRating12.Size = new System.Drawing.Size(284, 106);
-            this.ucRating12.TabIndex = 1;
-            // 
-            // ucRating11
-            // 
-            this.ucRating11.BackColor = System.Drawing.Color.Transparent;
-            this.ucRating11.Location = new System.Drawing.Point(18, 18);
-            this.ucRating11.Name = "ucRating11";
-            this.ucRating11.Size = new System.Drawing.Size(284, 106);
-            this.ucRating11.TabIndex = 0;
             // 
             // guna2CustomGradientPanel2
             // 
             this.guna2CustomGradientPanel2.BorderRadius = 20;
             this.guna2CustomGradientPanel2.Controls.Add(this.gunaLabel2);
             this.guna2CustomGradientPanel2.Controls.Add(this.gunaLabel1);
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(566, 51);
+            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(857, 12);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(323, 79);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(333, 79);
             this.guna2CustomGradientPanel2.TabIndex = 25;
             // 
             // gunaLabel2
@@ -155,9 +135,13 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.gunaLabel4);
             this.guna2CustomGradientPanel3.Controls.Add(this.gunaLabel5);
             this.guna2CustomGradientPanel3.Controls.Add(this.gunaLabel3);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(12, 367);
+            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(248)))), ((int)(((byte)(254)))));
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(22, 410);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(534, 200);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(812, 200);
             this.guna2CustomGradientPanel3.TabIndex = 25;
             // 
             // guna2CustomGradientPanel4
@@ -230,19 +214,43 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DoAnLTW.Properties.Resources.aira_boutique_hanoi_hotel1;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 51);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(534, 310);
+            this.pictureBox2.Size = new System.Drawing.Size(812, 380);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
+            // 
+            // ucDanhGia1
+            // 
+            this.ucDanhGia1.BackColor = System.Drawing.Color.Transparent;
+            this.ucDanhGia1.Location = new System.Drawing.Point(18, 13);
+            this.ucDanhGia1.Name = "ucDanhGia1";
+            this.ucDanhGia1.Size = new System.Drawing.Size(281, 115);
+            this.ucDanhGia1.TabIndex = 0;
+            // 
+            // ucDanhGia2
+            // 
+            this.ucDanhGia2.BackColor = System.Drawing.Color.Transparent;
+            this.ucDanhGia2.Location = new System.Drawing.Point(18, 165);
+            this.ucDanhGia2.Name = "ucDanhGia2";
+            this.ucDanhGia2.Size = new System.Drawing.Size(281, 115);
+            this.ucDanhGia2.TabIndex = 1;
+            // 
+            // ucDanhGia3
+            // 
+            this.ucDanhGia3.BackColor = System.Drawing.Color.Transparent;
+            this.ucDanhGia3.Location = new System.Drawing.Point(18, 321);
+            this.ucDanhGia3.Name = "ucDanhGia3";
+            this.ucDanhGia3.Size = new System.Drawing.Size(281, 115);
+            this.ucDanhGia3.TabIndex = 2;
             // 
             // FThongTinKS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(909, 622);
+            this.ClientSize = new System.Drawing.Size(1215, 622);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
@@ -280,9 +288,9 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel7;
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
-        private UCRating1 ucRating13;
-        private UCRating1 ucRating12;
-        private UCRating1 ucRating11;
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
+        private UCDanhGia ucDanhGia3;
+        private UCDanhGia ucDanhGia2;
+        private UCDanhGia ucDanhGia1;
     }
 }

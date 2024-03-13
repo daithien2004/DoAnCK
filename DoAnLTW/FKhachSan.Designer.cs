@@ -42,13 +42,10 @@
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaElipsePanel2 = new Guna.UI.WinForms.GunaElipsePanel();
-            this.gunaElipsePanel3 = new Guna.UI.WinForms.GunaElipsePanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.gunaElipsePanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -77,6 +74,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.gunaAdvenceButton3);
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.gunaAdvenceButton2);
             this.panel1.Controls.Add(this.gunaAdvenceButton6);
@@ -119,7 +117,7 @@
             this.gunaAdvenceButton2.Image = global::DoAnLTW.Properties.Resources.hotel;
             this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaAdvenceButton2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton2.Location = new System.Drawing.Point(600, 0);
+            this.gunaAdvenceButton2.Location = new System.Drawing.Point(559, 0);
             this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
             this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.White;
@@ -195,7 +193,7 @@
             this.gunaAdvenceButton1.Image = global::DoAnLTW.Properties.Resources.home;
             this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton1.Location = new System.Drawing.Point(425, 0);
+            this.gunaAdvenceButton1.Location = new System.Drawing.Point(384, 0);
             this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
             this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.White;
@@ -232,17 +230,6 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 4;
             // 
-            // gunaElipsePanel1
-            // 
-            this.gunaElipsePanel1.AutoScroll = true;
-            this.gunaElipsePanel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaElipsePanel1.BaseColor = System.Drawing.Color.White;
-            this.gunaElipsePanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaElipsePanel1.Location = new System.Drawing.Point(0, 80);
-            this.gunaElipsePanel1.Name = "gunaElipsePanel1";
-            this.gunaElipsePanel1.Size = new System.Drawing.Size(157, 622);
-            this.gunaElipsePanel1.TabIndex = 29;
-            // 
             // gunaAdvenceButton3
             // 
             this.gunaAdvenceButton3.AnimationHoverSpeed = 0.07F;
@@ -261,7 +248,7 @@
             this.gunaAdvenceButton3.Image = global::DoAnLTW.Properties.Resources.home;
             this.gunaAdvenceButton3.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaAdvenceButton3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton3.Location = new System.Drawing.Point(6, 568);
+            this.gunaAdvenceButton3.Location = new System.Drawing.Point(724, 0);
             this.gunaAdvenceButton3.Name = "gunaAdvenceButton3";
             this.gunaAdvenceButton3.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaAdvenceButton3.OnHoverBorderColor = System.Drawing.Color.White;
@@ -282,22 +269,10 @@
             this.gunaElipsePanel2.BaseColor = System.Drawing.Color.White;
             this.gunaElipsePanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gunaElipsePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gunaElipsePanel2.Location = new System.Drawing.Point(157, 80);
+            this.gunaElipsePanel2.Location = new System.Drawing.Point(0, 80);
             this.gunaElipsePanel2.Name = "gunaElipsePanel2";
-            this.gunaElipsePanel2.Size = new System.Drawing.Size(909, 622);
+            this.gunaElipsePanel2.Size = new System.Drawing.Size(1215, 622);
             this.gunaElipsePanel2.TabIndex = 30;
-            // 
-            // gunaElipsePanel3
-            // 
-            this.gunaElipsePanel3.AutoScroll = true;
-            this.gunaElipsePanel3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaElipsePanel3.BaseColor = System.Drawing.Color.White;
-            this.gunaElipsePanel3.Controls.Add(this.gunaAdvenceButton3);
-            this.gunaElipsePanel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.gunaElipsePanel3.Location = new System.Drawing.Point(1066, 80);
-            this.gunaElipsePanel3.Name = "gunaElipsePanel3";
-            this.gunaElipsePanel3.Size = new System.Drawing.Size(149, 622);
-            this.gunaElipsePanel3.TabIndex = 31;
             // 
             // FKhachSan
             // 
@@ -306,8 +281,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1215, 702);
             this.Controls.Add(this.gunaElipsePanel2);
-            this.Controls.Add(this.gunaElipsePanel3);
-            this.Controls.Add(this.gunaElipsePanel1);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -317,7 +290,6 @@
             this.Load += new System.EventHandler(this.FKhachSan_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.gunaElipsePanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -325,7 +297,6 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
@@ -338,7 +309,6 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
-        private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel3;
         private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel2;
     }
 }

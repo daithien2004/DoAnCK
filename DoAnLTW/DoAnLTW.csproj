@@ -155,11 +155,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FCreateAccount.cs">
+    <Compile Include="FChuChoO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FCreateAccount.Designer.cs">
-      <DependentUpon>FCreateAccount.cs</DependentUpon>
+    <Compile Include="FChuChoO.Designer.cs">
+      <DependentUpon>FChuChoO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FChuDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FChuDatPhong.Designer.cs">
+      <DependentUpon>FChuDatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FChuKhachSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FChuKhachSan.Designer.cs">
+      <DependentUpon>FChuKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FChuThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FChuThongTinCaNhan.Designer.cs">
+      <DependentUpon>FChuThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FChuTinNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FChuTinNhan.Designer.cs">
+      <DependentUpon>FChuTinNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FQuanLyChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FQuanLyChung.Designer.cs">
+      <DependentUpon>FQuanLyChung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTaoTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTaoTaiKhoan.Designer.cs">
+      <DependentUpon>FTaoTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="FDatPhongKS.cs">
       <SubType>Form</SubType>
@@ -173,6 +209,18 @@
     <Compile Include="FKhachSan.Designer.cs">
       <DependentUpon>FKhachSan.cs</DependentUpon>
     </Compile>
+    <Compile Include="FThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThongTinCaNhan.Designer.cs">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FThongTinDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThongTinDatPhong.Designer.cs">
+      <DependentUpon>FThongTinDatPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="FThongTinKS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,19 +233,37 @@
     <Compile Include="FTrangChu.Designer.cs">
       <DependentUpon>FTrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="FDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="FDangNhap.Designer.cs">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCAdminKhachSan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdminKhachSan.Designer.cs">
+      <DependentUpon>UCAdminKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCAdminNguoiDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAdminNguoiDung.Designer.cs">
+      <DependentUpon>UCAdminNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCChonKS.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCChonKS.Designer.cs">
       <DependentUpon>UCChonKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCDanhGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDanhGia.Designer.cs">
+      <DependentUpon>UCDanhGia.cs</DependentUpon>
     </Compile>
     <Compile Include="UCDatPhong.cs">
       <SubType>UserControl</SubType>
@@ -205,14 +271,56 @@
     <Compile Include="UCDatPhong.Designer.cs">
       <DependentUpon>UCDatPhong.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCRating1.cs">
+    <Compile Include="UCDonDatPhong.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCRating1.Designer.cs">
-      <DependentUpon>UCRating1.cs</DependentUpon>
+    <Compile Include="UCDonDatPhong.Designer.cs">
+      <DependentUpon>UCDonDatPhong.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FCreateAccount.resx">
-      <DependentUpon>FCreateAccount.cs</DependentUpon>
+    <Compile Include="UCKhachSan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCKhachSan.Designer.cs">
+      <DependentUpon>UCKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCNguoiDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNguoiDung.Designer.cs">
+      <DependentUpon>UCNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCQuanLyKS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQuanLyKS.Designer.cs">
+      <DependentUpon>UCQuanLyKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTrangThaiAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTrangThaiAdmin.Designer.cs">
+      <DependentUpon>UCTrangThaiAdmin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FChuChoO.resx">
+      <DependentUpon>FChuChoO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FChuDatPhong.resx">
+      <DependentUpon>FChuDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FChuKhachSan.resx">
+      <DependentUpon>FChuKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FChuThongTinCaNhan.resx">
+      <DependentUpon>FChuThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FChuTinNhan.resx">
+      <DependentUpon>FChuTinNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FQuanLyChung.resx">
+      <DependentUpon>FQuanLyChung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTaoTaiKhoan.resx">
+      <DependentUpon>FTaoTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FDatPhongKS.resx">
       <DependentUpon>FDatPhongKS.cs</DependentUpon>
@@ -220,14 +328,20 @@
     <EmbeddedResource Include="FKhachSan.resx">
       <DependentUpon>FKhachSan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FThongTinCaNhan.resx">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FThongTinDatPhong.resx">
+      <DependentUpon>FThongTinDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FThongTinKS.resx">
       <DependentUpon>FThongTinKS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FTrangChu.resx">
       <DependentUpon>FTrangChu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="FDangNhap.resx">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -240,14 +354,35 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCAdminKhachSan.resx">
+      <DependentUpon>UCAdminKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAdminNguoiDung.resx">
+      <DependentUpon>UCAdminNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCChonKS.resx">
       <DependentUpon>UCChonKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDanhGia.resx">
+      <DependentUpon>UCDanhGia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCDatPhong.resx">
       <DependentUpon>UCDatPhong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCRating1.resx">
-      <DependentUpon>UCRating1.cs</DependentUpon>
+    <EmbeddedResource Include="UCDonDatPhong.resx">
+      <DependentUpon>UCDonDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCKhachSan.resx">
+      <DependentUpon>UCKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNguoiDung.resx">
+      <DependentUpon>UCNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQuanLyKS.resx">
+      <DependentUpon>UCQuanLyKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTrangThaiAdmin.resx">
+      <DependentUpon>UCTrangThaiAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -403,6 +538,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\settings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5236711969265_ebe7525f3e898b6696056d3e889fdf76.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5236711969265_ebe7525f3e898b6696056d3e889fdf761.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4781847_chat_chatting_communication_conversation_email_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7830772_gauge_dashboard_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2634458_ensign_flag_nation_vietnam_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

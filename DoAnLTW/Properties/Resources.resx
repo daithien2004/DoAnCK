@@ -124,8 +124,11 @@
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="check-mark-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check-mark-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,17 +142,26 @@
   <data name="rating-stars (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rating-stars (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="7830772_gauge_dashboard_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7830772_gauge_dashboard_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-user-90" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-user-90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-166340207572998" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-166340207572998.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4781847_chat_chatting_communication_conversation_email_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4781847_chat_chatting_communication_conversation_email_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z5236711969265_ebe7525f3e898b6696056d3e889fdf761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z5236711969265_ebe7525f3e898b6696056d3e889fdf761.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="check-mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check-mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +193,8 @@
   <data name="aira-boutique-hanoi-hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aira-boutique-hanoi-hotel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aira-boutique-hanoi-hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aira-boutique-hanoi-hotel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="352300_dashboard_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\352300_dashboard_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,23 +211,26 @@
   <data name="2124299_app_document_report_essential_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2124299_app_document_report_essential_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rating-stars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rating-stars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="370076_account_avatar_client_male_person_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\370076_account_avatar_client_male_person_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pexels-nothing-ahead-3460599" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-nothing-ahead-3460599.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="9027408_dashboard_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9027408_dashboard_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="352300_dashboard_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\352300_dashboard_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="211694_bell_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\211694_bell_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="370076_account_avatar_client_male_person_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\370076_account_avatar_client_male_person_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tai-hinh-nen-dep-nhat-the-gioi-57" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tai-hinh-nen-dep-nhat-the-gioi-57.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,17 +250,20 @@
   <data name="thiet-ke-noi-that-can-ho-chung-cu-vinhomes-metropolis-chi-nga-9-1024x683" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thiet-ke-noi-that-can-ho-chung-cu-vinhomes-metropolis-chi-nga-9-1024x683.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_19783961" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_19783961.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="z5236711969265_ebe7525f3e898b6696056d3e889fdf76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z5236711969265_ebe7525f3e898b6696056d3e889fdf76.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rating" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aira-boutique-hanoi-hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aira-boutique-hanoi-hotel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels-nothing-ahead-3460599" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-nothing-ahead-3460599.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-166340207572998" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-166340207572998.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-1663402075729981" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-33-hinh-nen-dien-thoai-dep-doc-nhat-tai-xuong-mien-phi-1663402075729981.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_19783961" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_19783961.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rating1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rating1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +274,10 @@
   <data name="hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hotel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="211694_bell_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211694_bell_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2634458_ensign_flag_nation_vietnam_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2634458_ensign_flag_nation_vietnam_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
