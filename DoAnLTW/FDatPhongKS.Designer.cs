@@ -47,9 +47,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label4.Location = new System.Drawing.Point(22, 140);
+            this.label4.Location = new System.Drawing.Point(16, 114);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(149, 20);
+            this.label4.Size = new System.Drawing.Size(131, 17);
             this.label4.TabIndex = 33;
             this.label4.Text = "Ngày Trả Phòng:";
             // 
@@ -58,9 +59,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label3.Location = new System.Drawing.Point(21, 56);
+            this.label3.Location = new System.Drawing.Point(16, 46);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(150, 20);
+            this.label3.Size = new System.Drawing.Size(131, 17);
             this.label3.TabIndex = 32;
             this.label3.Text = "Ngày Đặt Phòng:";
             // 
@@ -71,11 +73,12 @@
             this.guna2DateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(21, 163);
+            this.guna2DateTimePicker2.Location = new System.Drawing.Point(16, 132);
+            this.guna2DateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(858, 36);
+            this.guna2DateTimePicker2.Size = new System.Drawing.Size(644, 29);
             this.guna2DateTimePicker2.TabIndex = 31;
             this.guna2DateTimePicker2.Value = new System.DateTime(2024, 3, 3, 14, 23, 42, 280);
             // 
@@ -86,11 +89,12 @@
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(21, 83);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(16, 67);
+            this.guna2DateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(858, 36);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(644, 29);
             this.guna2DateTimePicker1.TabIndex = 30;
             this.guna2DateTimePicker1.Value = new System.DateTime(2024, 3, 3, 14, 23, 42, 280);
             // 
@@ -103,9 +107,10 @@
             // 
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox1.Image = global::DoAnLTW.Properties.Resources.thiet_ke_noi_that_can_ho_chung_cu_vinhomes_metropolis_chi_nga_9_1024x683;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(555, 205);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(416, 167);
+            this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(324, 176);
+            this.gunaPictureBox1.Size = new System.Drawing.Size(243, 143);
             this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox1.TabIndex = 36;
             this.gunaPictureBox1.TabStop = false;
@@ -114,34 +119,37 @@
             // 
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox2.Image = global::DoAnLTW.Properties.Resources.thiet_ke_noi_that_can_ho_chung_cu_vinhomes_metropolis_chi_nga_9_1024x683;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(555, 387);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(416, 314);
+            this.gunaPictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
-            this.gunaPictureBox2.Size = new System.Drawing.Size(324, 176);
+            this.gunaPictureBox2.Size = new System.Drawing.Size(243, 143);
             this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaPictureBox2.TabIndex = 37;
             this.gunaPictureBox2.TabStop = false;
             // 
             // ucDatPhong2
             // 
-            this.ucDatPhong2.Location = new System.Drawing.Point(26, 387);
+            this.ucDatPhong2.Location = new System.Drawing.Point(20, 314);
+            this.ucDatPhong2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ucDatPhong2.Name = "ucDatPhong2";
-            this.ucDatPhong2.Size = new System.Drawing.Size(507, 176);
+            this.ucDatPhong2.Size = new System.Drawing.Size(380, 143);
             this.ucDatPhong2.TabIndex = 35;
             // 
             // ucDatPhong1
             // 
-            this.ucDatPhong1.Location = new System.Drawing.Point(26, 205);
+            this.ucDatPhong1.Location = new System.Drawing.Point(20, 167);
+            this.ucDatPhong1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ucDatPhong1.Name = "ucDatPhong1";
-            this.ucDatPhong1.Size = new System.Drawing.Size(507, 176);
+            this.ucDatPhong1.Size = new System.Drawing.Size(380, 143);
             this.ucDatPhong1.TabIndex = 34;
             // 
             // FDatPhongKS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(909, 622);
+            this.ClientSize = new System.Drawing.Size(682, 505);
             this.Controls.Add(this.gunaPictureBox2);
             this.Controls.Add(this.gunaPictureBox1);
             this.Controls.Add(this.ucDatPhong2);
@@ -152,6 +160,7 @@
             this.Controls.Add(this.guna2DateTimePicker1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(901, 592);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FDatPhongKS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FDatPhongKS";

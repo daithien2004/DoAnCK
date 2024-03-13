@@ -359,3 +359,5 @@ C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCUser.resources
 C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCHotel.resources
 C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCHotelAdmin.resources
 C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCDashboardAdmin.resources
+C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaNguoiDung.resources
+C:\AMonHoc\LapTrinhWindow\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaThongTinKS.resources

@@ -15,6 +15,7 @@ namespace DoAnLTW
         public FAdmin()
         {
             InitializeComponent();
+            panel.Controls.Add(new UCUserAdmin());
         }
 
         private void bunifuButton1_Click(object sender, EventArgs e)
@@ -22,27 +23,37 @@ namespace DoAnLTW
             this.Close();
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void btnThongKe_Click(object sender, EventArgs e)
         {
-            this.Close();
+            panel.Controls.Clear();
+            panel.Controls.Add(new UCDashboardAdmin());
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void btnNguoiDung_Click(object sender, EventArgs e)
         {
             panel.Controls.Clear();
             panel.Controls.Add(new UCUserAdmin());
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void btnKhachSan_Click(object sender, EventArgs e)
         {
             panel.Controls.Clear();
             panel.Controls.Add(new UCHotelAdmin());
         }
 
-        private void guna2Button2_Click_1(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            panel.Controls.Clear();
-            panel.Controls.Add(new UCDashboardAdmin());
+
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
