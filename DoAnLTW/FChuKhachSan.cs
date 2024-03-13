@@ -52,5 +52,12 @@ namespace DoAnLTW
             fchild.Show();
             this.Hide();
         }
+
+        private void btnThemchoo_Click(object sender, EventArgs e)
+        {
+            FChuThemChoO fChuThemChoO = new FChuThemChoO();
+            fChuThemChoO.Show();
+            this.Hide();
+        }
     }
 }

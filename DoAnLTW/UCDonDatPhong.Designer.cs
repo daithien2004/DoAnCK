@@ -28,13 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtMa = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtTinhtrang = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dtNgaytra = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.dtNgaydat = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
-            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // txtMa
+            // 
+            this.txtMa.BackColor = System.Drawing.Color.White;
+            this.txtMa.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMa.DefaultText = "Mã đơn: 2A11";
+            this.txtMa.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtMa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtMa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMa.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMa.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtMa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMa.Location = new System.Drawing.Point(259, 12);
+            this.txtMa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMa.Name = "txtMa";
+            this.txtMa.PasswordChar = '\0';
+            this.txtMa.PlaceholderText = "";
+            this.txtMa.SelectedText = "";
+            this.txtMa.Size = new System.Drawing.Size(378, 40);
+            this.txtMa.TabIndex = 64;
+            // 
+            // txtTinhtrang
+            // 
+            this.txtTinhtrang.BackColor = System.Drawing.Color.White;
+            this.txtTinhtrang.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTinhtrang.DefaultText = "Tình Trạng: Hoàn Tất";
+            this.txtTinhtrang.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTinhtrang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTinhtrang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTinhtrang.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTinhtrang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTinhtrang.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTinhtrang.ForeColor = System.Drawing.Color.Black;
+            this.txtTinhtrang.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTinhtrang.Location = new System.Drawing.Point(259, 148);
+            this.txtTinhtrang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTinhtrang.Name = "txtTinhtrang";
+            this.txtTinhtrang.PasswordChar = '\0';
+            this.txtTinhtrang.PlaceholderText = "";
+            this.txtTinhtrang.SelectedText = "";
+            this.txtTinhtrang.Size = new System.Drawing.Size(378, 40);
+            this.txtTinhtrang.TabIndex = 67;
+            // 
+            // dtNgaytra
+            // 
+            this.dtNgaytra.BackColor = System.Drawing.Color.Transparent;
+            this.dtNgaytra.BorderRadius = 10;
+            this.dtNgaytra.Checked = true;
+            this.dtNgaytra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(139)))), ((int)(((byte)(217)))));
+            this.dtNgaytra.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtNgaytra.ForeColor = System.Drawing.Color.White;
+            this.dtNgaytra.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtNgaytra.Location = new System.Drawing.Point(259, 103);
+            this.dtNgaytra.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtNgaytra.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtNgaytra.Name = "dtNgaytra";
+            this.dtNgaytra.Size = new System.Drawing.Size(378, 38);
+            this.dtNgaytra.TabIndex = 69;
+            this.dtNgaytra.Value = new System.DateTime(2024, 3, 7, 9, 52, 27, 126);
+            // 
+            // dtNgaydat
+            // 
+            this.dtNgaydat.BackColor = System.Drawing.Color.Transparent;
+            this.dtNgaydat.BorderRadius = 10;
+            this.dtNgaydat.Checked = true;
+            this.dtNgaydat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.dtNgaydat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtNgaydat.ForeColor = System.Drawing.Color.Black;
+            this.dtNgaydat.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtNgaydat.Location = new System.Drawing.Point(259, 59);
+            this.dtNgaydat.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtNgaydat.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtNgaydat.Name = "dtNgaydat";
+            this.dtNgaydat.Size = new System.Drawing.Size(378, 38);
+            this.dtNgaydat.TabIndex = 68;
+            this.dtNgaydat.Value = new System.DateTime(2024, 3, 7, 9, 52, 27, 126);
             // 
             // gunaPictureBox1
             // 
@@ -47,95 +124,18 @@
             this.gunaPictureBox1.TabIndex = 37;
             this.gunaPictureBox1.TabStop = false;
             // 
-            // guna2TextBox7
-            // 
-            this.guna2TextBox7.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "Mã đơn: 2A11";
-            this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.Location = new System.Drawing.Point(259, 12);
-            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox7.Name = "guna2TextBox7";
-            this.guna2TextBox7.PasswordChar = '\0';
-            this.guna2TextBox7.PlaceholderText = "";
-            this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.Size = new System.Drawing.Size(378, 40);
-            this.guna2TextBox7.TabIndex = 64;
-            // 
-            // guna2TextBox3
-            // 
-            this.guna2TextBox3.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "Giá: 111004$";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(259, 148);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(378, 40);
-            this.guna2TextBox3.TabIndex = 67;
-            // 
-            // guna2DateTimePicker2
-            // 
-            this.guna2DateTimePicker2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2DateTimePicker2.BorderRadius = 10;
-            this.guna2DateTimePicker2.Checked = true;
-            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(139)))), ((int)(((byte)(217)))));
-            this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker2.ForeColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(259, 103);
-            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(378, 38);
-            this.guna2DateTimePicker2.TabIndex = 69;
-            this.guna2DateTimePicker2.Value = new System.DateTime(2024, 3, 7, 9, 52, 27, 126);
-            // 
-            // guna2DateTimePicker1
-            // 
-            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2DateTimePicker1.BorderRadius = 10;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(259, 59);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(378, 38);
-            this.guna2DateTimePicker1.TabIndex = 68;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 3, 7, 9, 52, 27, 126);
-            // 
             // UCDonDatPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Controls.Add(this.guna2DateTimePicker2);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.guna2TextBox7);
+            this.Controls.Add(this.dtNgaytra);
+            this.Controls.Add(this.dtNgaydat);
+            this.Controls.Add(this.txtTinhtrang);
+            this.Controls.Add(this.txtMa);
             this.Controls.Add(this.gunaPictureBox1);
             this.Name = "UCDonDatPhong";
-            this.Size = new System.Drawing.Size(663, 203);
+            this.Size = new System.Drawing.Size(667, 207);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -143,10 +143,10 @@
 
         #endregion
 
-        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        public Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
+        public Guna.UI2.WinForms.Guna2TextBox txtMa;
+        public Guna.UI2.WinForms.Guna2TextBox txtTinhtrang;
+        public Guna.UI2.WinForms.Guna2DateTimePicker dtNgaytra;
+        public Guna.UI2.WinForms.Guna2DateTimePicker dtNgaydat;
     }
 }

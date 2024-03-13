@@ -49,5 +49,11 @@ namespace DoAnLTW
             fkhachsan.Show();
             this.Hide();
         }
+
+        private void btnThongTinChuKhach_Click(object sender, EventArgs e)
+        {
+            FTheNganHang fTheNganHang = new FTheNganHang();
+            fTheNganHang.ShowDialog();
+        }
     }
 }

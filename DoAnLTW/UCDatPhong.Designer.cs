@@ -80,6 +80,7 @@
             this.guna2GradientButton1.Size = new System.Drawing.Size(128, 45);
             this.guna2GradientButton1.TabIndex = 6;
             this.guna2GradientButton1.Text = "Đặt Phòng";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // gunaPictureBox1
             // 

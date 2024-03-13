@@ -47,7 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnThongTinChuKhach = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThemchoo = new Guna.UI2.WinForms.Guna2Button();
             this.bunifuShapes2 = new Bunifu.UI.WinForms.BunifuShapes();
             this.ucQuanLy = new DoAnLTW.UCQuanLyKS();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -279,7 +279,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnThongTinChuKhach);
             this.panel1.Controls.Add(this.bunifuImageButton1);
-            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.btnThemchoo);
             this.panel1.Controls.Add(this.bunifuShapes2);
             this.panel1.Controls.Add(this.ucQuanLy);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -368,23 +368,24 @@
             this.bunifuImageButton1.Zoom = 5;
             this.bunifuImageButton1.ZoomSpeed = 10;
             // 
-            // guna2Button1
+            // btnThemchoo
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
-            this.guna2Button1.BorderColor = System.Drawing.Color.White;
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
-            this.guna2Button1.Location = new System.Drawing.Point(820, 17);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 6;
-            this.guna2Button1.Text = "Thêm một chỗ ở";
+            this.btnThemchoo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
+            this.btnThemchoo.BorderColor = System.Drawing.Color.White;
+            this.btnThemchoo.BorderRadius = 20;
+            this.btnThemchoo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemchoo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThemchoo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThemchoo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThemchoo.FillColor = System.Drawing.Color.White;
+            this.btnThemchoo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnThemchoo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(116)))), ((int)(((byte)(166)))));
+            this.btnThemchoo.Location = new System.Drawing.Point(820, 17);
+            this.btnThemchoo.Name = "btnThemchoo";
+            this.btnThemchoo.Size = new System.Drawing.Size(180, 45);
+            this.btnThemchoo.TabIndex = 6;
+            this.btnThemchoo.Text = "Thêm một chỗ ở";
+            this.btnThemchoo.Click += new System.EventHandler(this.btnThemchoo_Click);
             // 
             // bunifuShapes2
             // 
@@ -929,7 +930,7 @@
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuImageButton btnThongTinChuKhach;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnThemchoo;
         private UCQuanLyKS ucQuanLy;
         private Bunifu.UI.WinForms.BunifuImageButton btnExit;
     }

@@ -1,66 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\",
+  "WorkspaceRootPath": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\\u0111\u1ED3 \u00E1n winform\\doanck\\doanltw\\ucadminkhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:ucadminkhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchuthemchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuthemchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\ucadminnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:ucadminnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchuthemchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuthemchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fquanlychung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fquanlychung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fquanlychung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fquanlychung.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fquanlychung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fquanlychung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fchudatphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchudatphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fchuchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuchoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fchuthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchuthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchukhachsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchukhachsan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchukhachsan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchuthemchoo.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuthemchoo.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\ucchonks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:ucchonks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\fchuthemchoo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:fchuthemchoo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DoAnLTW||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|d:\\tai lieu hoc\\laptrinhwin\\doanck\\doanltw\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{18E5226E-7C7B-4B08-8F30-DD671B0992D3}|DoAnLTW.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,8 +49,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FChuThemChoO.cs",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.cs",
+              "RelativeDocumentMoniker": "FChuThemChoO.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.cs",
+              "RelativeToolTip": "FChuThemChoO.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAvwCkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:58:57.418Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -82,176 +75,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UCAdminKhachSan.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCAdminKhachSan.cs",
-              "RelativeDocumentMoniker": "UCAdminKhachSan.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCAdminKhachSan.cs",
-              "RelativeToolTip": "UCAdminKhachSan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "FChuThongTinCaNhan.cs [Design]",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThongTinCaNhan.cs",
+              "RelativeDocumentMoniker": "FChuThongTinCaNhan.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThongTinCaNhan.cs [Design]",
+              "RelativeToolTip": "FChuThongTinCaNhan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:23:18.14Z",
+              "WhenOpened": "2024-03-13T15:03:07.139Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FChuKhachSan.cs",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
+              "RelativeDocumentMoniker": "FChuKhachSan.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
+              "RelativeToolTip": "FChuKhachSan.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAArwDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:00:47.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoAnLTW",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\DoAnLTW.csproj",
+              "RelativeDocumentMoniker": "DoAnLTW.csproj",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\DoAnLTW.csproj",
+              "RelativeToolTip": "DoAnLTW.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T14:47:54.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UCAdminNguoiDung.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCAdminNguoiDung.cs",
-              "RelativeDocumentMoniker": "UCAdminNguoiDung.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCAdminNguoiDung.cs",
-              "RelativeToolTip": "UCAdminNguoiDung.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Title": "FChuThemChoO.cs [Design]",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.cs",
+              "RelativeDocumentMoniker": "FChuThemChoO.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.cs [Design]",
+              "RelativeToolTip": "FChuThemChoO.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:22:37.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FQuanLyChung.Designer.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.Designer.cs",
-              "RelativeDocumentMoniker": "FQuanLyChung.Designer.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.Designer.cs",
-              "RelativeToolTip": "FQuanLyChung.Designer.cs",
-              "ViewState": "AQIAAK8BAAAAAAAAAAAWwL0BAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:20:44.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FQuanLyChung.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.cs",
-              "RelativeDocumentMoniker": "FQuanLyChung.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.cs",
-              "RelativeToolTip": "FQuanLyChung.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAMwCoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:28.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FQuanLyChung.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.cs",
-              "RelativeDocumentMoniker": "FQuanLyChung.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FQuanLyChung.cs [Design]",
-              "RelativeToolTip": "FQuanLyChung.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:27.131Z"
+              "WhenOpened": "2024-03-13T14:57:19.974Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FChuKhachSan.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
-              "RelativeDocumentMoniker": "FChuKhachSan.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
-              "RelativeToolTip": "FChuKhachSan.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAiwCsAAAAMAAAA",
+              "Title": "FChuKhachSan.Designer.cs",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.Designer.cs",
+              "RelativeDocumentMoniker": "FChuKhachSan.Designer.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.Designer.cs",
+              "RelativeToolTip": "FChuKhachSan.Designer.cs",
+              "ViewState": "AQIAAHIBAAAAAAAAAADgv4IBAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:08.306Z"
+              "WhenOpened": "2024-03-13T15:00:54.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "FChuKhachSan.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs",
               "RelativeDocumentMoniker": "FChuKhachSan.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs [Design]",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuKhachSan.cs [Design]",
               "RelativeToolTip": "FChuKhachSan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:02.695Z"
+              "WhenOpened": "2024-03-13T08:20:30.89Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FChuDatPhong.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuDatPhong.cs",
-              "RelativeDocumentMoniker": "FChuDatPhong.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuDatPhong.cs [Design]",
-              "RelativeToolTip": "FChuDatPhong.cs [Design]",
+              "Title": "FChuThemChoO.Designer.cs",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.Designer.cs",
+              "RelativeDocumentMoniker": "FChuThemChoO.Designer.cs",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.Designer.cs",
+              "RelativeToolTip": "FChuThemChoO.Designer.cs",
+              "ViewState": "AQIAABQKAAAAAAAAAAAAAEUDAACcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:01.951Z"
+              "WhenOpened": "2024-03-13T14:42:28.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FChuChoO.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuChoO.cs",
-              "RelativeDocumentMoniker": "FChuChoO.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuChoO.cs [Design]",
-              "RelativeToolTip": "FChuChoO.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:19:00.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FChuThongTinCaNhan.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuThongTinCaNhan.cs",
-              "RelativeDocumentMoniker": "FChuThongTinCaNhan.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FChuThongTinCaNhan.cs [Design]",
-              "RelativeToolTip": "FChuThongTinCaNhan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:18:58.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:18:29.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FDangNhap.cs",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FDangNhap.cs",
-              "RelativeDocumentMoniker": "FDangNhap.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FDangNhap.cs",
-              "RelativeToolTip": "FDangNhap.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAMwCUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:16:17.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FDangNhap.cs",
-              "RelativeDocumentMoniker": "FDangNhap.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FDangNhap.cs [Design]",
-              "RelativeToolTip": "FDangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:13:44.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UCChonKS.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCChonKS.cs",
-              "RelativeDocumentMoniker": "UCChonKS.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\UCChonKS.cs [Design]",
-              "RelativeToolTip": "UCChonKS.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:12:05.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FTrangChu.cs [Design]",
-              "DocumentMoniker": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FTrangChu.cs",
-              "RelativeDocumentMoniker": "FTrangChu.cs",
-              "ToolTip": "D:\\Tai lieu hoc\\\u0110\u1ED3 \u00E1n Winform\\DoAnCK\\DoAnLTW\\FTrangChu.cs [Design]",
-              "RelativeToolTip": "FTrangChu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:09:11.921Z"
+              "DocumentIndex": 6,
+              "Title": "FChuThemChoO.resx",
+              "DocumentMoniker": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.resx",
+              "RelativeDocumentMoniker": "FChuThemChoO.resx",
+              "ToolTip": "D:\\Tai lieu hoc\\LapTrinhWin\\DoAnCK\\DoAnLTW\\FChuThemChoO.resx",
+              "RelativeToolTip": "FChuThemChoO.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-13T14:57:37.865Z",
+              "EditorCaption": ""
             }
           ]
         },

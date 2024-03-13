@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation2 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation4 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FThongTinDatPhong));
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -37,9 +37,9 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.btnDahuy = new Guna.UI.WinForms.GunaButton();
+            this.btnHoantat = new Guna.UI.WinForms.GunaButton();
+            this.btnTatca = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnCanhan = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -48,26 +48,28 @@
             this.btnTrangchu = new Guna.UI.WinForms.GunaAdvenceButton();
             this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.bunifuTransition1 = new Bunifu.UI.WinForms.BunifuTransition(this.components);
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.gunaElipsePanel2 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.btnChonkhachsan = new Guna.UI2.WinForms.Guna2GradientButton();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.btnDondat = new Guna.UI.WinForms.GunaButton();
             this.btnThongtincanhan = new Guna.UI.WinForms.GunaButton();
             this.btnDangxuat = new Guna.UI.WinForms.GunaButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.bunifuTransition1 = new Bunifu.UI.WinForms.BunifuTransition(this.components);
+            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnDangcho = new Guna.UI.WinForms.GunaButton();
             this.gunaElipsePanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.gunaElipsePanel2.SuspendLayout();
             this.bunifuCards1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel2
@@ -128,10 +130,11 @@
             this.gunaElipsePanel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaElipsePanel1.BaseColor = System.Drawing.Color.White;
             this.gunaElipsePanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gunaElipsePanel1.Controls.Add(this.btnDangcho);
             this.gunaElipsePanel1.Controls.Add(this.label2);
-            this.gunaElipsePanel1.Controls.Add(this.gunaButton3);
-            this.gunaElipsePanel1.Controls.Add(this.gunaButton2);
-            this.gunaElipsePanel1.Controls.Add(this.gunaButton1);
+            this.gunaElipsePanel1.Controls.Add(this.btnDahuy);
+            this.gunaElipsePanel1.Controls.Add(this.btnHoantat);
+            this.gunaElipsePanel1.Controls.Add(this.btnTatca);
             this.bunifuTransition1.SetDecoration(this.gunaElipsePanel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.gunaElipsePanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaElipsePanel1.Location = new System.Drawing.Point(0, 80);
@@ -151,86 +154,89 @@
             this.label2.TabIndex = 49;
             this.label2.Text = "Đơn đặt chỗ:";
             // 
-            // gunaButton3
+            // btnDahuy
             // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(106)))), ((int)(((byte)(86)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.gunaButton3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton3.ForeColor = System.Drawing.Color.Black;
-            this.gunaButton3.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(11, 128);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.Gray;
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 8;
-            this.gunaButton3.Size = new System.Drawing.Size(226, 39);
-            this.gunaButton3.TabIndex = 61;
-            this.gunaButton3.Text = "Đã Hủy";
-            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnDahuy.AnimationHoverSpeed = 0.07F;
+            this.btnDahuy.AnimationSpeed = 0.03F;
+            this.btnDahuy.BackColor = System.Drawing.Color.Transparent;
+            this.btnDahuy.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(106)))), ((int)(((byte)(86)))));
+            this.btnDahuy.BorderColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.btnDahuy, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnDahuy.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnDahuy.FocusedColor = System.Drawing.Color.Empty;
+            this.btnDahuy.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDahuy.ForeColor = System.Drawing.Color.Black;
+            this.btnDahuy.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
+            this.btnDahuy.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnDahuy.Location = new System.Drawing.Point(11, 128);
+            this.btnDahuy.Name = "btnDahuy";
+            this.btnDahuy.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.btnDahuy.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnDahuy.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnDahuy.OnHoverImage = null;
+            this.btnDahuy.OnPressedColor = System.Drawing.Color.Black;
+            this.btnDahuy.Radius = 8;
+            this.btnDahuy.Size = new System.Drawing.Size(226, 39);
+            this.btnDahuy.TabIndex = 61;
+            this.btnDahuy.Text = "Đã Hủy";
+            this.btnDahuy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnDahuy.Click += new System.EventHandler(this.btnDahuy_Click);
             // 
-            // gunaButton2
+            // btnHoantat
             // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(221)))), ((int)(((byte)(185)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.gunaButton2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton2.ForeColor = System.Drawing.Color.Black;
-            this.gunaButton2.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(11, 83);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.Gray;
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Radius = 8;
-            this.gunaButton2.Size = new System.Drawing.Size(226, 39);
-            this.gunaButton2.TabIndex = 60;
-            this.gunaButton2.Text = "Hoàn Tất";
-            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnHoantat.AnimationHoverSpeed = 0.07F;
+            this.btnHoantat.AnimationSpeed = 0.03F;
+            this.btnHoantat.BackColor = System.Drawing.Color.Transparent;
+            this.btnHoantat.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(221)))), ((int)(((byte)(185)))));
+            this.btnHoantat.BorderColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.btnHoantat, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnHoantat.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnHoantat.FocusedColor = System.Drawing.Color.Empty;
+            this.btnHoantat.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHoantat.ForeColor = System.Drawing.Color.Black;
+            this.btnHoantat.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
+            this.btnHoantat.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnHoantat.Location = new System.Drawing.Point(11, 83);
+            this.btnHoantat.Name = "btnHoantat";
+            this.btnHoantat.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.btnHoantat.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnHoantat.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnHoantat.OnHoverImage = null;
+            this.btnHoantat.OnPressedColor = System.Drawing.Color.Black;
+            this.btnHoantat.Radius = 8;
+            this.btnHoantat.Size = new System.Drawing.Size(226, 39);
+            this.btnHoantat.TabIndex = 60;
+            this.btnHoantat.Text = "Hoàn Tất";
+            this.btnHoantat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnHoantat.Click += new System.EventHandler(this.btnHoantat_Click);
             // 
-            // gunaButton1
+            // btnTatca
             // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(237)))), ((int)(((byte)(255)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.gunaButton1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton1.ForeColor = System.Drawing.Color.Black;
-            this.gunaButton1.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(11, 38);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Gray;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 8;
-            this.gunaButton1.Size = new System.Drawing.Size(226, 39);
-            this.gunaButton1.TabIndex = 59;
-            this.gunaButton1.Text = "Tất cả";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnTatca.AnimationHoverSpeed = 0.07F;
+            this.btnTatca.AnimationSpeed = 0.03F;
+            this.btnTatca.BackColor = System.Drawing.Color.Transparent;
+            this.btnTatca.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(237)))), ((int)(((byte)(255)))));
+            this.btnTatca.BorderColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.btnTatca, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnTatca.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnTatca.FocusedColor = System.Drawing.Color.Empty;
+            this.btnTatca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTatca.ForeColor = System.Drawing.Color.Black;
+            this.btnTatca.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
+            this.btnTatca.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnTatca.Location = new System.Drawing.Point(11, 38);
+            this.btnTatca.Name = "btnTatca";
+            this.btnTatca.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.btnTatca.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnTatca.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnTatca.OnHoverImage = null;
+            this.btnTatca.OnPressedColor = System.Drawing.Color.Black;
+            this.btnTatca.Radius = 8;
+            this.btnTatca.Size = new System.Drawing.Size(226, 39);
+            this.btnTatca.TabIndex = 59;
+            this.btnTatca.Text = "Tất cả";
+            this.btnTatca.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnTatca.Click += new System.EventHandler(this.btnTatca_Click);
             // 
             // panel1
             // 
@@ -398,54 +404,10 @@
             this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox6.TabIndex = 4;
             // 
-            // gunaAdvenceButton1
-            // 
-            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton1.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.CheckedImage")));
-            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.White;
-            this.bunifuTransition1.SetDecoration(this.gunaAdvenceButton1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton1.Image = global::DoAnLTW.Properties.Resources.home;
-            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton1.Location = new System.Drawing.Point(341, 0);
-            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
-            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton1.OnHoverImage = global::DoAnLTW.Properties.Resources._352300_dashboard_icon;
-            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
-            this.gunaAdvenceButton1.Size = new System.Drawing.Size(190, 42);
-            this.gunaAdvenceButton1.TabIndex = 41;
-            this.gunaAdvenceButton1.Text = "Trang Chủ";
-            this.gunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2PictureBox1
-            // 
-            this.bunifuTransition1.SetDecoration(this.guna2PictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2PictureBox1.Image = global::DoAnLTW.Properties.Resources.agoda_logo_8C565D040A_seeklogo_com;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 10);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(185, 39);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 39;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // guna2CustomGradientPanel1
             // 
+            this.guna2CustomGradientPanel1.Controls.Add(this.flowLayoutPanel1);
             this.guna2CustomGradientPanel1.Controls.Add(this.gunaElipsePanel2);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CustomGradientPanel3);
             this.guna2CustomGradientPanel1.Controls.Add(this.label1);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2ComboBox1);
             this.guna2CustomGradientPanel1.Controls.Add(this.gunaTextBox1);
@@ -458,92 +420,15 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(965, 622);
             this.guna2CustomGradientPanel1.TabIndex = 44;
             // 
-            // guna2CustomGradientPanel3
+            // flowLayoutPanel1
             // 
-            this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.BorderColor = System.Drawing.Color.White;
-            this.bunifuTransition1.SetDecoration(this.guna2CustomGradientPanel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(21, 72);
-            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(690, 532);
-            this.guna2CustomGradientPanel3.TabIndex = 68;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.label1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
-            this.label1.Location = new System.Drawing.Point(336, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 23);
-            this.label1.TabIndex = 65;
-            this.label1.Text = "Sắp xếp theo:";
-            // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderRadius = 10;
-            this.bunifuTransition1.SetDecoration(this.guna2ComboBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(475, 19);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(236, 36);
-            this.guna2ComboBox1.TabIndex = 67;
-            // 
-            // gunaTextBox1
-            // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox1.BorderSize = 1;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTransition1.SetDecoration(this.gunaTextBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaTextBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaTextBox1.Location = new System.Drawing.Point(21, 19);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 5;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(280, 38);
-            this.gunaTextBox1.TabIndex = 66;
-            this.gunaTextBox1.Text = "Tìm theo mã đơn";
-            this.gunaTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // bunifuTransition1
-            // 
-            this.bunifuTransition1.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.HorizBlind;
-            this.bunifuTransition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation2;
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.flowLayoutPanel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(21, 84);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(701, 514);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // gunaElipsePanel2
             // 
@@ -551,6 +436,7 @@
             this.gunaElipsePanel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaElipsePanel2.BaseColor = System.Drawing.Color.White;
             this.gunaElipsePanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gunaElipsePanel2.Controls.Add(this.btnChonkhachsan);
             this.gunaElipsePanel2.Controls.Add(this.bunifuCards1);
             this.gunaElipsePanel2.Controls.Add(this.btnDangxuat);
             this.bunifuTransition1.SetDecoration(this.gunaElipsePanel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -559,6 +445,28 @@
             this.gunaElipsePanel2.Name = "gunaElipsePanel2";
             this.gunaElipsePanel2.Size = new System.Drawing.Size(225, 622);
             this.gunaElipsePanel2.TabIndex = 69;
+            // 
+            // btnChonkhachsan
+            // 
+            this.btnChonkhachsan.Animated = true;
+            this.btnChonkhachsan.AutoRoundedCorners = true;
+            this.btnChonkhachsan.BorderRadius = 21;
+            this.btnChonkhachsan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.btnChonkhachsan, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnChonkhachsan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnChonkhachsan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnChonkhachsan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChonkhachsan.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChonkhachsan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnChonkhachsan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(233)))));
+            this.btnChonkhachsan.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChonkhachsan.ForeColor = System.Drawing.Color.White;
+            this.btnChonkhachsan.Location = new System.Drawing.Point(19, 520);
+            this.btnChonkhachsan.Name = "btnChonkhachsan";
+            this.btnChonkhachsan.Size = new System.Drawing.Size(193, 45);
+            this.btnChonkhachsan.TabIndex = 45;
+            this.btnChonkhachsan.Text = "Chỉnh Sửa Thông Tin";
+            this.btnChonkhachsan.Click += new System.EventHandler(this.btnChonkhachsan_Click);
             // 
             // bunifuCards1
             // 
@@ -661,6 +569,151 @@
             this.btnDangxuat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnDangxuat.Click += new System.EventHandler(this.btnDangxuat_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.label1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
+            this.label1.Location = new System.Drawing.Point(336, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 23);
+            this.label1.TabIndex = 65;
+            this.label1.Text = "Sắp xếp theo:";
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 10;
+            this.bunifuTransition1.SetDecoration(this.guna2ComboBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Location = new System.Drawing.Point(475, 19);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(236, 36);
+            this.guna2ComboBox1.TabIndex = 67;
+            // 
+            // gunaTextBox1
+            // 
+            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBox1.BorderSize = 1;
+            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTransition1.SetDecoration(this.gunaTextBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.Transparent;
+            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaTextBox1.ForeColor = System.Drawing.Color.Black;
+            this.gunaTextBox1.Location = new System.Drawing.Point(21, 19);
+            this.gunaTextBox1.Name = "gunaTextBox1";
+            this.gunaTextBox1.PasswordChar = '\0';
+            this.gunaTextBox1.Radius = 5;
+            this.gunaTextBox1.SelectedText = "";
+            this.gunaTextBox1.Size = new System.Drawing.Size(280, 38);
+            this.gunaTextBox1.TabIndex = 66;
+            this.gunaTextBox1.Text = "Tìm theo mã đơn";
+            this.gunaTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // bunifuTransition1
+            // 
+            this.bunifuTransition1.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.HorizBlind;
+            this.bunifuTransition1.Cursor = null;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation4;
+            // 
+            // gunaAdvenceButton1
+            // 
+            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
+            this.gunaAdvenceButton1.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.CheckedImage")));
+            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.White;
+            this.bunifuTransition1.SetDecoration(this.gunaAdvenceButton1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaAdvenceButton1.Image = global::DoAnLTW.Properties.Resources.home;
+            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
+            this.gunaAdvenceButton1.Location = new System.Drawing.Point(341, 0);
+            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
+            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
+            this.gunaAdvenceButton1.OnHoverImage = global::DoAnLTW.Properties.Resources._352300_dashboard_icon;
+            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(202)))), ((int)(((byte)(69)))));
+            this.gunaAdvenceButton1.Size = new System.Drawing.Size(190, 42);
+            this.gunaAdvenceButton1.TabIndex = 41;
+            this.gunaAdvenceButton1.Text = "Trang Chủ";
+            this.gunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2PictureBox1
+            // 
+            this.bunifuTransition1.SetDecoration(this.guna2PictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2PictureBox1.Image = global::DoAnLTW.Properties.Resources.agoda_logo_8C565D040A_seeklogo_com;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 10);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(185, 39);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 39;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // btnDangcho
+            // 
+            this.btnDangcho.AnimationHoverSpeed = 0.07F;
+            this.btnDangcho.AnimationSpeed = 0.03F;
+            this.btnDangcho.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangcho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnDangcho.BorderColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.btnDangcho, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnDangcho.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnDangcho.FocusedColor = System.Drawing.Color.Empty;
+            this.btnDangcho.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangcho.ForeColor = System.Drawing.Color.Black;
+            this.btnDangcho.Image = global::DoAnLTW.Properties.Resources._4737437_manage_dashboard_analytic_icon;
+            this.btnDangcho.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnDangcho.Location = new System.Drawing.Point(11, 173);
+            this.btnDangcho.Name = "btnDangcho";
+            this.btnDangcho.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.btnDangcho.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnDangcho.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnDangcho.OnHoverImage = null;
+            this.btnDangcho.OnPressedColor = System.Drawing.Color.Black;
+            this.btnDangcho.Radius = 8;
+            this.btnDangcho.Size = new System.Drawing.Size(226, 39);
+            this.btnDangcho.TabIndex = 62;
+            this.btnDangcho.Text = "Đang Chờ";
+            this.btnDangcho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnDangcho.Click += new System.EventHandler(this.btnDangcho_Click);
+            // 
             // FThongTinDatPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -685,11 +738,11 @@
             this.gunaElipsePanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
             this.gunaElipsePanel2.ResumeLayout(false);
             this.bunifuCards1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -711,12 +764,11 @@
         private Guna.UI.WinForms.GunaAdvenceButton btnTrangchu;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
-        private Guna.UI.WinForms.GunaButton gunaButton3;
-        private Guna.UI.WinForms.GunaButton gunaButton2;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
+        private Guna.UI.WinForms.GunaButton btnDahuy;
+        private Guna.UI.WinForms.GunaButton btnHoantat;
+        private Guna.UI.WinForms.GunaButton btnTatca;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
@@ -726,5 +778,8 @@
         private Guna.UI.WinForms.GunaButton btnDondat;
         private Guna.UI.WinForms.GunaButton btnThongtincanhan;
         private Guna.UI.WinForms.GunaButton btnDangxuat;
+        private Guna.UI2.WinForms.Guna2GradientButton btnChonkhachsan;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Guna.UI.WinForms.GunaButton btnDangcho;
     }
 }

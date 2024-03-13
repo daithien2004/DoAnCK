@@ -56,6 +56,7 @@
             this.btnChonkhachsan = new Guna.UI2.WinForms.Guna2GradientButton();
             this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
             this.bunifuTransition1 = new Bunifu.UI.WinForms.BunifuTransition(this.components);
+            this.ucChonKS1 = new DoAnLTW.UCChonKS();
             this.btnDondat = new Guna.UI.WinForms.GunaButton();
             this.btnThongtincanhan = new Guna.UI.WinForms.GunaButton();
             this.btnDangxuat = new Guna.UI.WinForms.GunaButton();
@@ -67,11 +68,11 @@
             this.bunifuCheckBox2 = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuCheckBox1 = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuHSlider1 = new Bunifu.UI.WinForms.BunifuHSlider();
+            this.btnThongTinChuKhach = new Bunifu.UI.WinForms.BunifuImageButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnCanhan = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.ucChonKS1 = new DoAnLTW.UCChonKS();
             this.panel1.SuspendLayout();
             this.gunaElipsePanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
@@ -83,6 +84,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.btnThongTinChuKhach);
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.btnCanhan);
             this.panel1.Controls.Add(this.gunaAdvenceButton6);
@@ -490,6 +492,14 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 1F;
             this.bunifuTransition1.DefaultAnimation = animation1;
+            // 
+            // ucChonKS1
+            // 
+            this.bunifuTransition1.SetDecoration(this.ucChonKS1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.ucChonKS1.Location = new System.Drawing.Point(263, 143);
+            this.ucChonKS1.Name = "ucChonKS1";
+            this.ucChonKS1.Size = new System.Drawing.Size(689, 238);
+            this.ucChonKS1.TabIndex = 28;
             // 
             // btnDondat
             // 
@@ -965,6 +975,42 @@
             this.bunifuHSlider1.ThumbStyle = Bunifu.UI.WinForms.BunifuHSlider.ThumbStyles.Outline;
             this.bunifuHSlider1.Value = 50;
             // 
+            // btnThongTinChuKhach
+            // 
+            this.btnThongTinChuKhach.ActiveImage = null;
+            this.btnThongTinChuKhach.AllowAnimations = true;
+            this.btnThongTinChuKhach.AllowBuffering = false;
+            this.btnThongTinChuKhach.AllowToggling = false;
+            this.btnThongTinChuKhach.AllowZooming = true;
+            this.btnThongTinChuKhach.AllowZoomingOnFocus = false;
+            this.btnThongTinChuKhach.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.btnThongTinChuKhach, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.btnThongTinChuKhach.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnThongTinChuKhach.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btnThongTinChuKhach.ErrorImage")));
+            this.btnThongTinChuKhach.FadeWhenInactive = false;
+            this.btnThongTinChuKhach.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btnThongTinChuKhach.Image = global::DoAnLTW.Properties.Resources.wallet_passes_app;
+            this.btnThongTinChuKhach.ImageActive = null;
+            this.btnThongTinChuKhach.ImageLocation = null;
+            this.btnThongTinChuKhach.ImageMargin = 5;
+            this.btnThongTinChuKhach.ImageSize = new System.Drawing.Size(32, 30);
+            this.btnThongTinChuKhach.ImageZoomSize = new System.Drawing.Size(37, 35);
+            this.btnThongTinChuKhach.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnThongTinChuKhach.InitialImage")));
+            this.btnThongTinChuKhach.Location = new System.Drawing.Point(1022, 0);
+            this.btnThongTinChuKhach.Name = "btnThongTinChuKhach";
+            this.btnThongTinChuKhach.Rotation = 0;
+            this.btnThongTinChuKhach.ShowActiveImage = true;
+            this.btnThongTinChuKhach.ShowCursorChanges = true;
+            this.btnThongTinChuKhach.ShowImageBorders = true;
+            this.btnThongTinChuKhach.ShowSizeMarkers = false;
+            this.btnThongTinChuKhach.Size = new System.Drawing.Size(37, 35);
+            this.btnThongTinChuKhach.TabIndex = 29;
+            this.btnThongTinChuKhach.ToolTipText = "";
+            this.btnThongTinChuKhach.WaitOnLoad = false;
+            this.btnThongTinChuKhach.Zoom = 5;
+            this.btnThongTinChuKhach.ZoomSpeed = 10;
+            this.btnThongTinChuKhach.Click += new System.EventHandler(this.btnThongTinChuKhach_Click);
+            // 
             // guna2PictureBox1
             // 
             this.bunifuTransition1.SetDecoration(this.guna2PictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -1075,14 +1121,6 @@
             this.gunaAdvenceButton1.Text = "Trang Chủ";
             this.gunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ucChonKS1
-            // 
-            this.bunifuTransition1.SetDecoration(this.ucChonKS1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.ucChonKS1.Location = new System.Drawing.Point(263, 143);
-            this.ucChonKS1.Name = "ucChonKS1";
-            this.ucChonKS1.Size = new System.Drawing.Size(689, 238);
-            this.ucChonKS1.TabIndex = 28;
-            // 
             // FTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1152,5 +1190,6 @@
         private Guna.UI.WinForms.GunaButton btnThongtincanhan;
         private Guna.UI2.WinForms.Guna2GradientButton btnChonkhachsan;
         private UCChonKS ucChonKS1;
+        private Bunifu.UI.WinForms.BunifuImageButton btnThongTinChuKhach;
     }
 }
