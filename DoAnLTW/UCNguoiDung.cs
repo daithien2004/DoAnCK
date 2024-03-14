@@ -16,5 +16,21 @@ namespace DoAnLTW
         {
             InitializeComponent();
         }
+
+        private void UCNguoiDung_Click(object sender, EventArgs e)
+        {
+            FSuaNguoiDung form = new FSuaNguoiDung();
+            form.ShowDialog();
+        }
+
+        private void UCNguoiDung_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
+        }
+
+        private void UCNguoiDung_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.Turquoise;
+        }
     }
 }

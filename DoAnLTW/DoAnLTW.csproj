@@ -203,11 +203,23 @@
     <Compile Include="FQuanLyChung.Designer.cs">
       <DependentUpon>FQuanLyChung.cs</DependentUpon>
     </Compile>
+    <Compile Include="FSuaNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuaNguoiDung.Designer.cs">
+      <DependentUpon>FSuaNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="FSuaThongTinDat.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FSuaThongTinDat.Designer.cs">
       <DependentUpon>FSuaThongTinDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSuaThongTinKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuaThongTinKS.Designer.cs">
+      <DependentUpon>FSuaThongTinKS.cs</DependentUpon>
     </Compile>
     <Compile Include="FTaoTaiKhoan.cs">
       <SubType>Form</SubType>
@@ -356,8 +368,14 @@
     <EmbeddedResource Include="FQuanLyChung.resx">
       <DependentUpon>FQuanLyChung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FSuaNguoiDung.resx">
+      <DependentUpon>FSuaNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSuaThongTinDat.resx">
       <DependentUpon>FSuaThongTinDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSuaThongTinKS.resx">
+      <DependentUpon>FSuaThongTinKS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FTaoTaiKhoan.resx">
       <DependentUpon>FTaoTaiKhoan.cs</DependentUpon>
@@ -644,6 +662,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4213476_apartment_architecture_building_city_company_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

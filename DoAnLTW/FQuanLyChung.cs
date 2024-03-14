@@ -15,12 +15,24 @@ namespace DoAnLTW
         public FQuanLyChung()
         {
             InitializeComponent();
+            panel.Controls.Add(new UCAdminNguoiDung());
         }
 
-        private void btnTrangThai_Click(object sender, EventArgs e)
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
         {
             panel.Controls.Clear();
-            panel.Controls.Add(new UCAdminKhachSan());
+            panel.Controls.Add(new UCTrangThaiAdmin());
+        }
+
+        private void btnNguoiDung_Click(object sender, EventArgs e)
+        {
+            panel.Controls.Clear();
+            panel.Controls.Add(new UCAdminNguoiDung());
         }
 
         private void btnKhachSan_Click(object sender, EventArgs e)
@@ -29,17 +41,19 @@ namespace DoAnLTW
             panel.Controls.Add(new UCAdminKhachSan());
         }
 
-        private void btnNguoidung_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            panel.Controls.Clear();
-            panel.Controls.Add(new UCAdminNguoiDung());
+
         }
 
-        private void btnDangxuat_Click(object sender, EventArgs e)
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            FDangNhap fchild = new FDangNhap();
-            fchild.Show();
-            this.Hide();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

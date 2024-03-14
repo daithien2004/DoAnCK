@@ -390,3 +390,5 @@ D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.exe
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.pdb
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuThemChoO.resources
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCBoDem.resources
+D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaNguoiDung.resources
+D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaThongTinKS.resources

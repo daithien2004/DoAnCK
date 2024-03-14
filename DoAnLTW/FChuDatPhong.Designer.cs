@@ -143,7 +143,7 @@
             this.btnExit.FadeWhenInactive = false;
             this.btnExit.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.btnExit.Image = global::DoAnLTW.Properties.Resources.logout;
-            this.btnExit.ImageActive = null;
+            this.btnExit.ActiveImage = null;
             this.btnExit.ImageLocation = null;
             this.btnExit.ImageMargin = 5;
             this.btnExit.ImageSize = new System.Drawing.Size(40, 40);
@@ -160,7 +160,7 @@
             this.btnExit.TabIndex = 7;
             this.btnExit.ToolTipText = "";
             this.btnExit.WaitOnLoad = false;
-            this.btnExit.Zoom = 5;
+            this.btnExit.ImageMargin = 5;
             this.btnExit.ZoomSpeed = 10;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 

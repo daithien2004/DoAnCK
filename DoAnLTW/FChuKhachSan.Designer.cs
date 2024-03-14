@@ -173,7 +173,7 @@
             this.btnExit.FadeWhenInactive = false;
             this.btnExit.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.btnExit.Image = global::DoAnLTW.Properties.Resources.logout;
-            this.btnExit.ImageActive = null;
+            this.btnExit.ActiveImage = null;
             this.btnExit.ImageLocation = null;
             this.btnExit.ImageMargin = 5;
             this.btnExit.ImageSize = new System.Drawing.Size(40, 40);
@@ -190,7 +190,7 @@
             this.btnExit.TabIndex = 8;
             this.btnExit.ToolTipText = "";
             this.btnExit.WaitOnLoad = false;
-            this.btnExit.Zoom = 5;
+            this.btnExit.ImageMargin = 5;
             this.btnExit.ZoomSpeed = 10;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -330,7 +330,7 @@
             this.btnThongTinChuKhach.TabIndex = 8;
             this.btnThongTinChuKhach.ToolTipText = "";
             this.btnThongTinChuKhach.WaitOnLoad = false;
-            this.btnThongTinChuKhach.Zoom = 5;
+            this.btnThongTinChuKhach.ImageMargin = 5;
             this.btnThongTinChuKhach.ZoomSpeed = 10;
             this.btnThongTinChuKhach.Click += new System.EventHandler(this.btnThongTinChuKhach_Click);
             // 
@@ -365,7 +365,7 @@
             this.bunifuImageButton1.TabIndex = 9;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
-            this.bunifuImageButton1.Zoom = 5;
+            this.bunifuImageButton1.ImageMargin = 5;
             this.bunifuImageButton1.ZoomSpeed = 10;
             // 
             // btnThemchoo

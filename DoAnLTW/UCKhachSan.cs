@@ -16,5 +16,21 @@ namespace DoAnLTW
         {
             InitializeComponent();
         }
+
+        private void UCKhachSan_Click(object sender, EventArgs e)
+        {
+            FSuaThongTinKS fKS = new FSuaThongTinKS();
+            fKS.ShowDialog();
+        }
+
+        private void UCKhachSan_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
+        }
+
+        private void UCKhachSan_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.Turquoise;
+        }
     }
 }
