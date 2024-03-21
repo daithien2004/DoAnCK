@@ -261,7 +261,6 @@ F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.exe
 F:\DoAnGroup\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.pdb
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCChonKS.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FKhachSan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FDatPhongKS.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FThongTinKS.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCDatPhong.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FThongTinCaNhan.resources
@@ -269,22 +268,9 @@ D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FThongTinDatP
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCDonDatPhong.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FDangNhap.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FTaoTaiKhoan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuChoO.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuDatPhong.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCQuanLyKS.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuKhachSan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuThongTinCaNhan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuTinNhan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FQuanLyChung.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCAdminKhachSan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCAdminNguoiDung.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCKhachSan.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCNguoiDung.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCTrangThaiAdmin.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCDanhGia.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaThongTinDat.resources
 D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FDatPhong.resources
-D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FTheNganHang.resources
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\bin\Debug\DoAnLTW.exe.config
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\bin\Debug\DoAnLTW.exe
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\bin\Debug\DoAnLTW.pdb
@@ -392,3 +378,4 @@ D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FChuThemChoO.resour
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCBoDem.resources
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaNguoiDung.resources
 D:\Tai lieu hoc\LapTrinhWin\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.FSuaThongTinKS.resources
+D:\Tai lieu hoc\Đồ án Winform\DoAnCK\DoAnLTW\obj\Debug\DoAnLTW.UCTimKS.resources
